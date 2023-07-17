@@ -34,7 +34,7 @@ public class JwtFilter extends OncePerRequestFilter {
                 HttpHeaders headers = new HttpHeaders();
                 headers.set(HttpHeaders.AUTHORIZATION, "Bearer " + jwt);
                 //A special endpoint in Auth microservice to validate and retrieve client's ID
-                String authServiceUrl = "http://localhost:8080/api/auth";
+                String authServiceUrl = "http://auth-service:8080/api/auth";
                 Long clientId = restTemplate.exchange(authServiceUrl + "/validate", HttpMethod.GET, new HttpEntity<>(headers), Long.class).getBody();
                 //Setting retrieved client's ID in request attribute for further use
                 request.setAttribute("clientId", clientId);

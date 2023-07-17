@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class PaymentServiceImpl implements PaymentService {
 
     private final RestTemplate restTemplate;
-    private static final String paymentUrl = "http://localhost:8081/api/account/top-up";
+    private static final String paymentUrl = "http://account-service:8081/api/account/top-up";
 
     public PaymentServiceImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
