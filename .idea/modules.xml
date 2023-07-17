@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccountService/AccountService.iml" filepath="$PROJECT_DIR$/AccountService/AccountService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthService/AuthService.iml" filepath="$PROJECT_DIR$/AuthService/AuthService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExternalPaymentSystem/ExternalPaymentSystem.iml" filepath="$PROJECT_DIR$/ExternalPaymentSystem/ExternalPaymentSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s1lkpay-test-task.iml" filepath="$PROJECT_DIR$/s1lkpay-test-task.iml" />
+    </modules>
+  </component>
+</project>
